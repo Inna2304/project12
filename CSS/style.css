@@ -60,6 +60,7 @@ a {
     border: none;
     outline: none;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .header__burger {
@@ -140,33 +141,6 @@ a {
 .articles__filter__item:hover {
     box-shadow: #16C8BB 0px 0px 2px inset;
 }
-
-
-
-
-/*
-.articles__top,.article__bottom {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 24px;
-    margin-bottom: 24px;
-}    
-
-.article {
-    grid-column: span 3;
-}
-
-.article__img {
-    grid-area: article__img;
-    display: flex;
-    width: 100%;
-    height: 260px;
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
-    }
-*/
-
-    
 
 .articles__top, .articles__bottom {
     display: flex;
@@ -256,6 +230,147 @@ a {
     background: #35B3A9;
 }
 
+.button {
+    background: #35B3A9;    
+    width: 182px;
+    height: 48px;
+    border-radius: 4px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    color:#FFFFFF;
+    margin-bottom: 96px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #2C61A6;
+    color: white;
+    width: 100%;
+    height: 302px;   
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;    
+}
+
+.footer__links {
+    display: flex;
+    gap: 93px;
+}
+
+.footer__links__list {
+    list-style: none;
+    padding: 0;
+}
+
+.footer__links__item {
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+
+.footer__link {
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.footer__subscribe {
+    max-width: 486px;
+    margin-left: 91px;
+}
+
+.footer__subscribe__text {
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.footer__form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.footer__input {
+    flex: 1;
+    padding: 14px 52px 14px 16px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    width: 316px;
+    height: 20px;
+}
+
+.footer__button {
+    padding: 14px 20px 14px 20px;
+    gap: 10px;
+    border-radius: 4px;
+    width: 64px;
+    height: 48px;
+    border: none;
+    background-color: #16C8BB; 
+    color: white;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    transition: background-color 0.3s;
+}
+
+.footer__button:hover {
+    background-color: #008C74; 
+}
+
+.footer__info {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.footer__copyright {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-left: 90px;
+}
+
+.footer__badge {
+    display: flex;
+    align-items: center;
+}
+
+.footer__badge__sk_logo {
+    width: 100px;
+    height: 50px;
+}
+
+.footer__badge__text {
+    margin-left: 8px;
+    height: 19px;
+}
+
+.footer__social {
+    display: flex;
+    gap: 16px;
+}
+
+.footer__social__link {
+    width: 32px;
+}
+
+footer {
+    width: 100%; /* Ширина на всю страницу */
+    background-color: #2B78E4; /* Цвет фона совпадает с цветом body */
+    border-top: 1px solid #B0B0B0; /* Полоска сверху */
+    padding: 10px 0;
+}
+
+
+
+
+
+
 @media screen and (max-width: 1024px) {
     .container {
         padding: 14px 32px;
@@ -338,45 +453,6 @@ a {
 
 
 
-
-
-
-
-
-
-/* 
-@media screen and (max-width: 1024px) {
-    .header__burger {
-      display: block;
-
-/* 
-@media screen and (max-width: 1024px) {
-    .header__burger {
-      display: block;
-    }
-}
-
-iPhone 11
-@media screen and (min-width: 414px) {
-    .header {
-        padding-inline: 24px;
-    }
-}
-
-iPad mini
-@media screen and (min-width: 768px) {
-    .header {
-        padding-inline: 20px;
-    }
-}
-
-iPad Pro
-@media screen and (min-width: 1024px) {
-    .header {
-        padding-inline: 32px;
-    }
-}
-*/
 
 
 
